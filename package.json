@@ -1,0 +1,22 @@
+{
+  "name": "online-video-editor",
+  "version": "0.0.1",
+  "description": "Online video editor",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "Nazmul Hossain <bilashcse@gmail.com> (http://github.com/bilashcse)",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "fluent-ffmpeg": "^2.1.0",
+    "fs": "0.0.1-security",
+    "mkdirp": "^0.5.1",
+    "node-ffprobe": "^1.2.2",
+    "querystring": "^0.2.0",
+    "url": "^0.11.0"
+  }
+}
